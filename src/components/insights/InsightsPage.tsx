@@ -7,7 +7,6 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Cell,
 } from "recharts";
 import {
   TrendingUp,
@@ -23,7 +22,6 @@ import {
   formatCurrency,
   getTotals,
 } from "../../utils";
-import { CATEGORY_COLORS } from "../../data/mockdata";
 import clsx from "clsx";
 
 const InsightsPage: React.FC = () => {
